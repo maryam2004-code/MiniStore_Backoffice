@@ -87,7 +87,7 @@
             lblName.Location = new Point(3, 0);
             lblName.Name = "lblName";
             lblName.Size = new Size(59, 50);
-            lblName.TabIndex = 0;
+            lblName.TabIndex = 6;
             lblName.Text = "Name";
             lblName.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -98,7 +98,7 @@
             label2.Location = new Point(3, 50);
             label2.Name = "label2";
             label2.Size = new Size(84, 50);
-            label2.TabIndex = 1;
+            label2.TabIndex = 7;
             label2.Text = "Category";
             label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -109,7 +109,7 @@
             lblPrice.Location = new Point(3, 100);
             lblPrice.Name = "lblPrice";
             lblPrice.Size = new Size(49, 50);
-            lblPrice.TabIndex = 2;
+            lblPrice.TabIndex = 8;
             lblPrice.Text = "Price";
             lblPrice.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -120,7 +120,7 @@
             lblStock.Location = new Point(3, 150);
             lblStock.Name = "lblStock";
             lblStock.Size = new Size(55, 50);
-            lblStock.TabIndex = 3;
+            lblStock.TabIndex = 9;
             lblStock.Text = "Stock";
             lblStock.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -131,7 +131,7 @@
             lblStatus.Location = new Point(3, 200);
             lblStatus.Name = "lblStatus";
             lblStatus.Size = new Size(60, 50);
-            lblStatus.TabIndex = 4;
+            lblStatus.TabIndex = 10;
             lblStatus.Text = "Status";
             lblStatus.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -142,7 +142,7 @@
             lblID.Location = new Point(3, 250);
             lblID.Name = "lblID";
             lblID.Size = new Size(30, 60);
-            lblID.TabIndex = 5;
+            lblID.TabIndex = 11;
             lblID.Text = "ID";
             lblID.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -152,7 +152,7 @@
             txtName.Location = new Point(175, 3);
             txtName.Name = "txtName";
             txtName.Size = new Size(682, 31);
-            txtName.TabIndex = 6;
+            txtName.TabIndex = 0;
             // 
             // cmbCategory
             // 
@@ -161,7 +161,7 @@
             cmbCategory.Location = new Point(175, 53);
             cmbCategory.Name = "cmbCategory";
             cmbCategory.Size = new Size(682, 33);
-            cmbCategory.TabIndex = 7;
+            cmbCategory.TabIndex = 1;
             // 
             // numericUpDownPrice
             // 
@@ -169,7 +169,7 @@
             numericUpDownPrice.Location = new Point(175, 103);
             numericUpDownPrice.Name = "numericUpDownPrice";
             numericUpDownPrice.Size = new Size(682, 31);
-            numericUpDownPrice.TabIndex = 8;
+            numericUpDownPrice.TabIndex = 2;
             // 
             // numericUpDownStock
             // 
@@ -177,7 +177,7 @@
             numericUpDownStock.Location = new Point(175, 153);
             numericUpDownStock.Name = "numericUpDownStock";
             numericUpDownStock.Size = new Size(682, 31);
-            numericUpDownStock.TabIndex = 9;
+            numericUpDownStock.TabIndex = 3;
             // 
             // cmbStatus
             // 
@@ -186,7 +186,7 @@
             cmbStatus.Location = new Point(175, 203);
             cmbStatus.Name = "cmbStatus";
             cmbStatus.Size = new Size(682, 33);
-            cmbStatus.TabIndex = 10;
+            cmbStatus.TabIndex = 4;
             // 
             // txtID
             // 
@@ -195,7 +195,7 @@
             txtID.Name = "txtID";
             txtID.ReadOnly = true;
             txtID.Size = new Size(682, 31);
-            txtID.TabIndex = 11;
+            txtID.TabIndex = 5;
             // 
             // flpProductForm
             // 
@@ -216,7 +216,7 @@
             btnSave.Location = new Point(745, 3);
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(112, 42);
-            btnSave.TabIndex = 0;
+            btnSave.TabIndex = 1;
             btnSave.Text = "Save";
             btnSave.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnSave.UseVisualStyleBackColor = true;
@@ -229,7 +229,7 @@
             btnCancel.Location = new Point(627, 3);
             btnCancel.Name = "btnCancel";
             btnCancel.Size = new Size(112, 42);
-            btnCancel.TabIndex = 1;
+            btnCancel.TabIndex = 0;
             btnCancel.Text = "Cancel";
             btnCancel.TextAlign = ContentAlignment.MiddleRight;
             btnCancel.TextImageRelation = TextImageRelation.ImageBeforeText;
