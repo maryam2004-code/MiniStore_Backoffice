@@ -240,6 +240,7 @@
             txtSearch.Name = "txtSearch";
             txtSearch.Size = new Size(581, 31);
             txtSearch.TabIndex = 3;
+            txtSearch.TextChanged += txtSearch_TextChanged;
             // 
             // cmbCategory
             // 
@@ -251,6 +252,7 @@
             cmbCategory.Name = "cmbCategory";
             cmbCategory.Size = new Size(433, 33);
             cmbCategory.TabIndex = 4;
+            cmbCategory.SelectedIndexChanged += cmbCategory_SelectedIndexChanged;
             // 
             // cmbStockStatus
             // 
@@ -262,6 +264,7 @@
             cmbStockStatus.Name = "cmbStockStatus";
             cmbStockStatus.Size = new Size(434, 33);
             cmbStockStatus.TabIndex = 5;
+            cmbStockStatus.SelectedIndexChanged += cmbStockStatus_SelectedIndexChanged;
             // 
             // pnlGrid
             // 

@@ -220,6 +220,7 @@
             btnSave.Text = "Save";
             btnSave.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnSave.UseVisualStyleBackColor = true;
+            btnSave.Click += btnSave_Click;
             // 
             // btnCancel
             // 
@@ -234,6 +235,7 @@
             btnCancel.TextAlign = ContentAlignment.MiddleRight;
             btnCancel.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += btnCancel_Click;
             // 
             // ProductForm
             // 
@@ -245,6 +247,7 @@
             Name = "ProductForm";
             StartPosition = FormStartPosition.CenterParent;
             Text = "ProductForm";
+            FormClosing += ProductForm_FormClosing;
             tblProductForm.ResumeLayout(false);
             tblProductForm.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)numericUpDownPrice).EndInit();
