@@ -16,9 +16,10 @@ namespace App.WindowsApp.Forms
 {
     public partial class MainForm : Form
     {
-       InMemoryProductService _productService = new InMemoryProductService();
+        InMemoryProductService _productService = new InMemoryProductService();
+        InMemoryCustomerService _customerService = new InMemoryCustomerService();
         private readonly Dictionary<Type, UserControl> _views = new Dictionary<Type, UserControl>();
-        
+
         public MainForm()
         {
             InitializeComponent();
@@ -67,9 +68,15 @@ namespace App.WindowsApp.Forms
 
         }
 
-        private void ShowView<T>(Func<T> factory) where T:UserControl
+        private void btnCustomer_Click(object sender, EventArgs e)
+        {
+            ShowView(() => new CustomerView(_customerService));
+        }
 
-        { var key = typeof(T);
+        private void ShowView<T>(Func<T> factory) where T : UserControl
+
+        {
+            var key = typeof(T);
 
             if (!_views.TryGetValue(key, out var view))
             {
